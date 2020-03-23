@@ -2,14 +2,19 @@ package com.example.demo;
 
 public class Main {
 
-    private final int a = 5;
+    private static final int a = 5;
 
-    private int change() {
-        a = 4;
-        return a;
-    }
+    private final String b = "abc";
+
+//    private void change(){
+//        b="rrrr";
+//    }
+
 
     public static void main(String[] args) {
+
+
+        System.out.println(a);
 
     }
 }
