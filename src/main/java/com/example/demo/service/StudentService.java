@@ -12,7 +12,7 @@ public class StudentService implements IStudentService {
     private final StudentRepository studentRepository;
 
     public StudentService(StudentRepository studentRepository) {
-        this.studentRepository = studentRepository;
+        this.studentRepository = studentRepos;
     }
 
 
