@@ -17,10 +17,8 @@ public class StudentController {
         this.studentService = studentService;
 
     }
-
     @RequestMapping("/student")
     public List<Student> findAll(){
         return studentService.findAll();
-        log.info
     }
 }
